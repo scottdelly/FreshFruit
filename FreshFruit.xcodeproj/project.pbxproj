@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D299BF3317502D20009506BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF3217502D20009506BD /* UIKit.framework */; };
+		D299BF3517502D20009506BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF3417502D20009506BD /* Foundation.framework */; };
+		D299BF3717502D20009506BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF3617502D20009506BD /* CoreGraphics.framework */; };
+		D299BF3917502D20009506BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF3817502D20009506BD /* CoreData.framework */; };
+		D299BF3F17502D20009506BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D299BF3D17502D20009506BD /* InfoPlist.strings */; };
+		D299BF4117502D20009506BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D299BF4017502D20009506BD /* main.m */; };
+		D299BF4517502D20009506BD /* FFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D299BF4417502D20009506BD /* FFAppDelegate.m */; };
+		D299BF4717502D20009506BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D299BF4617502D20009506BD /* Default.png */; };
+		D299BF4917502D20009506BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D299BF4817502D20009506BD /* Default@2x.png */; };
+		D299BF4B17502D20009506BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D299BF4A17502D20009506BD /* Default-568h@2x.png */; };
+		D299BF4E17502D20009506BD /* FreshFruit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D299BF4C17502D20009506BD /* FreshFruit.xcdatamodeld */; };
+		D299BF5617502D20009506BD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF5517502D20009506BD /* SenTestingKit.framework */; };
+		D299BF5717502D20009506BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF3217502D20009506BD /* UIKit.framework */; };
+		D299BF5817502D20009506BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF3417502D20009506BD /* Foundation.framework */; };
+		D299BF5917502D20009506BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D299BF3817502D20009506BD /* CoreData.framework */; };
+		D299BF6117502D20009506BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D299BF5F17502D20009506BD /* InfoPlist.strings */; };
+		D299BF6417502D20009506BD /* FreshFruitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D299BF6317502D20009506BD /* FreshFruitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D299BF5A17502D20009506BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D299BF2717502D20009506BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D299BF2E17502D20009506BD;
+			remoteInfo = FreshFruit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D299BF2F17502D20009506BD /* FreshFruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshFruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299BF3217502D20009506BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D299BF3417502D20009506BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D299BF3617502D20009506BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D299BF3817502D20009506BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D299BF3C17502D20009506BD /* FreshFruit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreshFruit-Info.plist"; sourceTree = "<group>"; };
+		D299BF3E17502D20009506BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D299BF4017502D20009506BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D299BF4217502D20009506BD /* FreshFruit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreshFruit-Prefix.pch"; sourceTree = "<group>"; };
+		D299BF4317502D20009506BD /* FFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFAppDelegate.h; sourceTree = "<group>"; };
+		D299BF4417502D20009506BD /* FFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFAppDelegate.m; sourceTree = "<group>"; };
+		D299BF4617502D20009506BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D299BF4817502D20009506BD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D299BF4A17502D20009506BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D299BF4D17502D20009506BD /* FreshFruit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshFruit.xcdatamodel; sourceTree = "<group>"; };
+		D299BF5417502D20009506BD /* FreshFruitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshFruitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299BF5517502D20009506BD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D299BF5E17502D20009506BD /* FreshFruitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreshFruitTests-Info.plist"; sourceTree = "<group>"; };
+		D299BF6017502D20009506BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D299BF6217502D20009506BD /* FreshFruitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreshFruitTests.h; sourceTree = "<group>"; };
+		D299BF6317502D20009506BD /* FreshFruitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreshFruitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D299BF2C17502D20009506BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299BF3317502D20009506BD /* UIKit.framework in Frameworks */,
+				D299BF3517502D20009506BD /* Foundation.framework in Frameworks */,
+				D299BF3717502D20009506BD /* CoreGraphics.framework in Frameworks */,
+				D299BF3917502D20009506BD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299BF5017502D20009506BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299BF5617502D20009506BD /* SenTestingKit.framework in Frameworks */,
+				D299BF5717502D20009506BD /* UIKit.framework in Frameworks */,
+				D299BF5817502D20009506BD /* Foundation.framework in Frameworks */,
+				D299BF5917502D20009506BD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D299BF2617502D20009506BD = {
+			isa = PBXGroup;
+			children = (
+				D299BF3A17502D20009506BD /* FreshFruit */,
+				D299BF5C17502D20009506BD /* FreshFruitTests */,
+				D299BF3117502D20009506BD /* Frameworks */,
+				D299BF3017502D20009506BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D299BF3017502D20009506BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D299BF2F17502D20009506BD /* FreshFruit.app */,
+				D299BF5417502D20009506BD /* FreshFruitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D299BF3117502D20009506BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D299BF3217502D20009506BD /* UIKit.framework */,
+				D299BF3417502D20009506BD /* Foundation.framework */,
+				D299BF3617502D20009506BD /* CoreGraphics.framework */,
+				D299BF3817502D20009506BD /* CoreData.framework */,
+				D299BF5517502D20009506BD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D299BF3A17502D20009506BD /* FreshFruit */ = {
+			isa = PBXGroup;
+			children = (
+				D299BF4317502D20009506BD /* FFAppDelegate.h */,
+				D299BF4417502D20009506BD /* FFAppDelegate.m */,
+				D299BF4C17502D20009506BD /* FreshFruit.xcdatamodeld */,
+				D299BF3B17502D20009506BD /* Supporting Files */,
+			);
+			path = FreshFruit;
+			sourceTree = "<group>";
+		};
+		D299BF3B17502D20009506BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D299BF3C17502D20009506BD /* FreshFruit-Info.plist */,
+				D299BF3D17502D20009506BD /* InfoPlist.strings */,
+				D299BF4017502D20009506BD /* main.m */,
+				D299BF4217502D20009506BD /* FreshFruit-Prefix.pch */,
+				D299BF4617502D20009506BD /* Default.png */,
+				D299BF4817502D20009506BD /* Default@2x.png */,
+				D299BF4A17502D20009506BD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D299BF5C17502D20009506BD /* FreshFruitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D299BF6217502D20009506BD /* FreshFruitTests.h */,
+				D299BF6317502D20009506BD /* FreshFruitTests.m */,
+				D299BF5D17502D20009506BD /* Supporting Files */,
+			);
+			path = FreshFruitTests;
+			sourceTree = "<group>";
+		};
+		D299BF5D17502D20009506BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D299BF5E17502D20009506BD /* FreshFruitTests-Info.plist */,
+				D299BF5F17502D20009506BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D299BF2E17502D20009506BD /* FreshFruit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299BF6717502D20009506BD /* Build configuration list for PBXNativeTarget "FreshFruit" */;
+			buildPhases = (
+				D299BF2B17502D20009506BD /* Sources */,
+				D299BF2C17502D20009506BD /* Frameworks */,
+				D299BF2D17502D20009506BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshFruit;
+			productName = FreshFruit;
+			productReference = D299BF2F17502D20009506BD /* FreshFruit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D299BF5317502D20009506BD /* FreshFruitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299BF6A17502D20009506BD /* Build configuration list for PBXNativeTarget "FreshFruitTests" */;
+			buildPhases = (
+				D299BF4F17502D20009506BD /* Sources */,
+				D299BF5017502D20009506BD /* Frameworks */,
+				D299BF5117502D20009506BD /* Resources */,
+				D299BF5217502D20009506BD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D299BF5B17502D20009506BD /* PBXTargetDependency */,
+			);
+			name = FreshFruitTests;
+			productName = FreshFruitTests;
+			productReference = D299BF5417502D20009506BD /* FreshFruitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D299BF2717502D20009506BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Scott Delly";
+			};
+			buildConfigurationList = D299BF2A17502D20009506BD /* Build configuration list for PBXProject "FreshFruit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D299BF2617502D20009506BD;
+			productRefGroup = D299BF3017502D20009506BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D299BF2E17502D20009506BD /* FreshFruit */,
+				D299BF5317502D20009506BD /* FreshFruitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D299BF2D17502D20009506BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299BF3F17502D20009506BD /* InfoPlist.strings in Resources */,
+				D299BF4717502D20009506BD /* Default.png in Resources */,
+				D299BF4917502D20009506BD /* Default@2x.png in Resources */,
+				D299BF4B17502D20009506BD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299BF5117502D20009506BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299BF6117502D20009506BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D299BF5217502D20009506BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D299BF2B17502D20009506BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299BF4117502D20009506BD /* main.m in Sources */,
+				D299BF4517502D20009506BD /* FFAppDelegate.m in Sources */,
+				D299BF4E17502D20009506BD /* FreshFruit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299BF4F17502D20009506BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299BF6417502D20009506BD /* FreshFruitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D299BF5B17502D20009506BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D299BF2E17502D20009506BD /* FreshFruit */;
+			targetProxy = D299BF5A17502D20009506BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D299BF3D17502D20009506BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D299BF3E17502D20009506BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D299BF5F17502D20009506BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D299BF6017502D20009506BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D299BF6517502D20009506BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299BF6617502D20009506BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299BF6817502D20009506BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshFruit/FreshFruit-Prefix.pch";
+				INFOPLIST_FILE = "FreshFruit/FreshFruit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D299BF6917502D20009506BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshFruit/FreshFruit-Prefix.pch";
+				INFOPLIST_FILE = "FreshFruit/FreshFruit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D299BF6B17502D20009506BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FreshFruit.app/FreshFruit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshFruit/FreshFruit-Prefix.pch";
+				INFOPLIST_FILE = "FreshFruitTests/FreshFruitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D299BF6C17502D20009506BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FreshFruit.app/FreshFruit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshFruit/FreshFruit-Prefix.pch";
+				INFOPLIST_FILE = "FreshFruitTests/FreshFruitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D299BF2A17502D20009506BD /* Build configuration list for PBXProject "FreshFruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299BF6517502D20009506BD /* Debug */,
+				D299BF6617502D20009506BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299BF6717502D20009506BD /* Build configuration list for PBXNativeTarget "FreshFruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299BF6817502D20009506BD /* Debug */,
+				D299BF6917502D20009506BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D299BF6A17502D20009506BD /* Build configuration list for PBXNativeTarget "FreshFruitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299BF6B17502D20009506BD /* Debug */,
+				D299BF6C17502D20009506BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D299BF4C17502D20009506BD /* FreshFruit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D299BF4D17502D20009506BD /* FreshFruit.xcdatamodel */,
+			);
+			currentVersion = D299BF4D17502D20009506BD /* FreshFruit.xcdatamodel */;
+			path = FreshFruit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D299BF2717502D20009506BD /* Project object */;
+}
